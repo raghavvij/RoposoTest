@@ -81,7 +81,11 @@ class ImageGalleryVC: UIViewController,UICollectionViewDelegate,UICollectionView
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let screenWidth = UIScreen.main.bounds.size.width
         let screenHeight = UIScreen.main.bounds.size.height
-        return CGSize(width: screenWidth/2, height: screenHeight/3)
+        if (UIDevice.current.orientation == .landscapeRight || UIDevice.current.orientation == .landscapeLeft) {
+           return CGSize(width: screenWidth/3, height: screenHeight/2)
+        }else{
+           return CGSize(width: screenWidth/2, height: screenHeight/3)
+        }
     }
     
     
@@ -94,6 +98,14 @@ class ImageGalleryVC: UIViewController,UICollectionViewDelegate,UICollectionView
         imageDescriptionVC.image = imageObjectsArray?[indexPath.row]
         imageDescriptionVC.index = indexPath.row
         self.navigationController?.pushViewController(imageDescriptionVC, animated: true)
+    }
+    
+    override func didRotate(from fromInterfaceOrientation: UIInterfaceOrientation) {
+        
+        // Reload Data here
+        
+        self.galleryCollectionView.reloadData()
+        
     }
     
 
