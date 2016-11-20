@@ -101,11 +101,8 @@ class ImageGalleryVC: UIViewController,UICollectionViewDelegate,UICollectionView
     }
     
     override func didRotate(from fromInterfaceOrientation: UIInterfaceOrientation) {
-        
         // Reload Data here
-        
         self.galleryCollectionView.reloadData()
-        
     }
     
 
