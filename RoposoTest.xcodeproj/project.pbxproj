@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A08316E21DDEEC8F007A19D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08316E11DDEEC8F007A19D5 /* AppDelegate.swift */; };
+		A08316E41DDEEC8F007A19D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08316E31DDEEC8F007A19D5 /* ViewController.swift */; };
+		A08316E71DDEEC8F007A19D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08316E51DDEEC8F007A19D5 /* Main.storyboard */; };
+		A08316EA1DDEEC8F007A19D5 /* RoposoTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A08316E81DDEEC8F007A19D5 /* RoposoTest.xcdatamodeld */; };
+		A08316EC1DDEEC8F007A19D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08316EB1DDEEC8F007A19D5 /* Assets.xcassets */; };
+		A08316EF1DDEEC8F007A19D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08316ED1DDEEC8F007A19D5 /* LaunchScreen.storyboard */; };
+		A08316FA1DDEEC8F007A19D5 /* RoposoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08316F91DDEEC8F007A19D5 /* RoposoTestTests.swift */; };
+		A08317051DDEEC8F007A19D5 /* RoposoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08317041DDEEC8F007A19D5 /* RoposoTestUITests.swift */; };
+		A08317131DDEECD0007A19D5 /* WebserviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08317121DDEECD0007A19D5 /* WebserviceManager.swift */; };
+		A08317171DDF6CFC007A19D5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08317161DDF6CFC007A19D5 /* Image.swift */; };
+		A083171A1DDF72E2007A19D5 /* ImageGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08317191DDF72E2007A19D5 /* ImageGalleryVC.swift */; };
+		A08317241DDF7B33007A19D5 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08317221DDF7B33007A19D5 /* GalleryCollectionViewCell.swift */; };
+		A08317251DDF7B33007A19D5 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08317231DDF7B33007A19D5 /* GalleryCollectionViewCell.xib */; };
+		A08317271DDFF745007A19D5 /* ImageDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08317261DDFF745007A19D5 /* ImageDescriptionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A08316F61DDEEC8F007A19D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08316D61DDEEC8F007A19D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08316DD1DDEEC8F007A19D5;
+			remoteInfo = RoposoTest;
+		};
+		A08317011DDEEC8F007A19D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08316D61DDEEC8F007A19D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08316DD1DDEEC8F007A19D5;
+			remoteInfo = RoposoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A08316DE1DDEEC8F007A19D5 /* RoposoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoposoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08316E11DDEEC8F007A19D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A08316E31DDEEC8F007A19D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A08316E61DDEEC8F007A19D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A08316E91DDEEC8F007A19D5 /* RoposoTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoposoTest.xcdatamodel; sourceTree = "<group>"; };
+		A08316EB1DDEEC8F007A19D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A08316EE1DDEEC8F007A19D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A08316F01DDEEC8F007A19D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08316F51DDEEC8F007A19D5 /* RoposoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoposoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08316F91DDEEC8F007A19D5 /* RoposoTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoposoTestTests.swift; sourceTree = "<group>"; };
+		A08316FB1DDEEC8F007A19D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08317001DDEEC8F007A19D5 /* RoposoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoposoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08317041DDEEC8F007A19D5 /* RoposoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoposoTestUITests.swift; sourceTree = "<group>"; };
+		A08317061DDEEC8F007A19D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08317121DDEECD0007A19D5 /* WebserviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceManager.swift; sourceTree = "<group>"; };
+		A08317161DDF6CFC007A19D5 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		A08317191DDF72E2007A19D5 /* ImageGalleryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryVC.swift; sourceTree = "<group>"; };
+		A08317221DDF7B33007A19D5 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A08317231DDF7B33007A19D5 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		A08317261DDFF745007A19D5 /* ImageDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDescriptionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A08316DB1DDEEC8F007A19D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08316F21DDEEC8F007A19D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08316FD1DDEEC8F007A19D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A08316D51DDEEC8F007A19D5 = {
+			isa = PBXGroup;
+			children = (
+				A08316E01DDEEC8F007A19D5 /* RoposoTest */,
+				A08316F81DDEEC8F007A19D5 /* RoposoTestTests */,
+				A08317031DDEEC8F007A19D5 /* RoposoTestUITests */,
+				A08316DF1DDEEC8F007A19D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A08316DF1DDEEC8F007A19D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A08316DE1DDEEC8F007A19D5 /* RoposoTest.app */,
+				A08316F51DDEEC8F007A19D5 /* RoposoTestTests.xctest */,
+				A08317001DDEEC8F007A19D5 /* RoposoTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A08316E01DDEEC8F007A19D5 /* RoposoTest */ = {
+			isa = PBXGroup;
+			children = (
+				A083171D1DDF78DC007A19D5 /* CollectionViewCells */,
+				A083171C1DDF7346007A19D5 /* Storyboards */,
+				A083171B1DDF732D007A19D5 /* Managers */,
+				A08317181DDF72B2007A19D5 /* ViewControllers */,
+				A08317151DDF6CCB007A19D5 /* Models */,
+				A08316E11DDEEC8F007A19D5 /* AppDelegate.swift */,
+				A08316E31DDEEC8F007A19D5 /* ViewController.swift */,
+				A08316EB1DDEEC8F007A19D5 /* Assets.xcassets */,
+				A08316F01DDEEC8F007A19D5 /* Info.plist */,
+				A08316E81DDEEC8F007A19D5 /* RoposoTest.xcdatamodeld */,
+			);
+			path = RoposoTest;
+			sourceTree = "<group>";
+		};
+		A08316F81DDEEC8F007A19D5 /* RoposoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A08316F91DDEEC8F007A19D5 /* RoposoTestTests.swift */,
+				A08316FB1DDEEC8F007A19D5 /* Info.plist */,
+			);
+			path = RoposoTestTests;
+			sourceTree = "<group>";
+		};
+		A08317031DDEEC8F007A19D5 /* RoposoTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A08317041DDEEC8F007A19D5 /* RoposoTestUITests.swift */,
+				A08317061DDEEC8F007A19D5 /* Info.plist */,
+			);
+			path = RoposoTestUITests;
+			sourceTree = "<group>";
+		};
+		A08317151DDF6CCB007A19D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A08317161DDF6CFC007A19D5 /* Image.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A08317181DDF72B2007A19D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A08317191DDF72E2007A19D5 /* ImageGalleryVC.swift */,
+				A08317261DDFF745007A19D5 /* ImageDescriptionViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A083171B1DDF732D007A19D5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A08317121DDEECD0007A19D5 /* WebserviceManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		A083171C1DDF7346007A19D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A08316ED1DDEEC8F007A19D5 /* LaunchScreen.storyboard */,
+				A08316E51DDEEC8F007A19D5 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		A083171D1DDF78DC007A19D5 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				A08317221DDF7B33007A19D5 /* GalleryCollectionViewCell.swift */,
+				A08317231DDF7B33007A19D5 /* GalleryCollectionViewCell.xib */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A08316DD1DDEEC8F007A19D5 /* RoposoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08317091DDEEC8F007A19D5 /* Build configuration list for PBXNativeTarget "RoposoTest" */;
+			buildPhases = (
+				A08316DA1DDEEC8F007A19D5 /* Sources */,
+				A08316DB1DDEEC8F007A19D5 /* Frameworks */,
+				A08316DC1DDEEC8F007A19D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoposoTest;
+			productName = RoposoTest;
+			productReference = A08316DE1DDEEC8F007A19D5 /* RoposoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A08316F41DDEEC8F007A19D5 /* RoposoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A083170C1DDEEC8F007A19D5 /* Build configuration list for PBXNativeTarget "RoposoTestTests" */;
+			buildPhases = (
+				A08316F11DDEEC8F007A19D5 /* Sources */,
+				A08316F21DDEEC8F007A19D5 /* Frameworks */,
+				A08316F31DDEEC8F007A19D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08316F71DDEEC8F007A19D5 /* PBXTargetDependency */,
+			);
+			name = RoposoTestTests;
+			productName = RoposoTestTests;
+			productReference = A08316F51DDEEC8F007A19D5 /* RoposoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A08316FF1DDEEC8F007A19D5 /* RoposoTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A083170F1DDEEC8F007A19D5 /* Build configuration list for PBXNativeTarget "RoposoTestUITests" */;
+			buildPhases = (
+				A08316FC1DDEEC8F007A19D5 /* Sources */,
+				A08316FD1DDEEC8F007A19D5 /* Frameworks */,
+				A08316FE1DDEEC8F007A19D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08317021DDEEC8F007A19D5 /* PBXTargetDependency */,
+			);
+			name = RoposoTestUITests;
+			productName = RoposoTestUITests;
+			productReference = A08317001DDEEC8F007A19D5 /* RoposoTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A08316D61DDEEC8F007A19D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "raghav vij";
+				TargetAttributes = {
+					A08316DD1DDEEC8F007A19D5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P5BZYH6E36;
+						ProvisioningStyle = Automatic;
+					};
+					A08316F41DDEEC8F007A19D5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P5BZYH6E36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A08316DD1DDEEC8F007A19D5;
+					};
+					A08316FF1DDEEC8F007A19D5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P5BZYH6E36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A08316DD1DDEEC8F007A19D5;
+					};
+				};
+			};
+			buildConfigurationList = A08316D91DDEEC8F007A19D5 /* Build configuration list for PBXProject "RoposoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A08316D51DDEEC8F007A19D5;
+			productRefGroup = A08316DF1DDEEC8F007A19D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A08316DD1DDEEC8F007A19D5 /* RoposoTest */,
+				A08316F41DDEEC8F007A19D5 /* RoposoTestTests */,
+				A08316FF1DDEEC8F007A19D5 /* RoposoTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A08316DC1DDEEC8F007A19D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08316EF1DDEEC8F007A19D5 /* LaunchScreen.storyboard in Resources */,
+				A08317251DDF7B33007A19D5 /* GalleryCollectionViewCell.xib in Resources */,
+				A08316EC1DDEEC8F007A19D5 /* Assets.xcassets in Resources */,
+				A08316E71DDEEC8F007A19D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08316F31DDEEC8F007A19D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08316FE1DDEEC8F007A19D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A08316DA1DDEEC8F007A19D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08317131DDEECD0007A19D5 /* WebserviceManager.swift in Sources */,
+				A083171A1DDF72E2007A19D5 /* ImageGalleryVC.swift in Sources */,
+				A08316E41DDEEC8F007A19D5 /* ViewController.swift in Sources */,
+				A08316EA1DDEEC8F007A19D5 /* RoposoTest.xcdatamodeld in Sources */,
+				A08316E21DDEEC8F007A19D5 /* AppDelegate.swift in Sources */,
+				A08317271DDFF745007A19D5 /* ImageDescriptionViewController.swift in Sources */,
+				A08317241DDF7B33007A19D5 /* GalleryCollectionViewCell.swift in Sources */,
+				A08317171DDF6CFC007A19D5 /* Image.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08316F11DDEEC8F007A19D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08316FA1DDEEC8F007A19D5 /* RoposoTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08316FC1DDEEC8F007A19D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08317051DDEEC8F007A19D5 /* RoposoTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A08316F71DDEEC8F007A19D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A08316DD1DDEEC8F007A19D5 /* RoposoTest */;
+			targetProxy = A08316F61DDEEC8F007A19D5 /* PBXContainerItemProxy */;
+		};
+		A08317021DDEEC8F007A19D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A08316DD1DDEEC8F007A19D5 /* RoposoTest */;
+			targetProxy = A08317011DDEEC8F007A19D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A08316E51DDEEC8F007A19D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08316E61DDEEC8F007A19D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A08316ED1DDEEC8F007A19D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08316EE1DDEEC8F007A19D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A08317071DDEEC8F007A19D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A08317081DDEEC8F007A19D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A083170A1DDEEC8F007A19D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5BZYH6E36;
+				INFOPLIST_FILE = RoposoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roposo.Roposo.RoposoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A083170B1DDEEC8F007A19D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5BZYH6E36;
+				INFOPLIST_FILE = RoposoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roposo.Roposo.RoposoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A083170D1DDEEC8F007A19D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P5BZYH6E36;
+				INFOPLIST_FILE = RoposoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roposo.Roposo.RoposoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoposoTest.app/RoposoTest";
+			};
+			name = Debug;
+		};
+		A083170E1DDEEC8F007A19D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P5BZYH6E36;
+				INFOPLIST_FILE = RoposoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roposo.Roposo.RoposoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoposoTest.app/RoposoTest";
+			};
+			name = Release;
+		};
+		A08317101DDEEC8F007A19D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P5BZYH6E36;
+				INFOPLIST_FILE = RoposoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roposo.Roposo.RoposoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RoposoTest;
+			};
+			name = Debug;
+		};
+		A08317111DDEEC8F007A19D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P5BZYH6E36;
+				INFOPLIST_FILE = RoposoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Roposo.Roposo.RoposoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RoposoTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A08316D91DDEEC8F007A19D5 /* Build configuration list for PBXProject "RoposoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08317071DDEEC8F007A19D5 /* Debug */,
+				A08317081DDEEC8F007A19D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08317091DDEEC8F007A19D5 /* Build configuration list for PBXNativeTarget "RoposoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A083170A1DDEEC8F007A19D5 /* Debug */,
+				A083170B1DDEEC8F007A19D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A083170C1DDEEC8F007A19D5 /* Build configuration list for PBXNativeTarget "RoposoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A083170D1DDEEC8F007A19D5 /* Debug */,
+				A083170E1DDEEC8F007A19D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A083170F1DDEEC8F007A19D5 /* Build configuration list for PBXNativeTarget "RoposoTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08317101DDEEC8F007A19D5 /* Debug */,
+				A08317111DDEEC8F007A19D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A08316E81DDEEC8F007A19D5 /* RoposoTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A08316E91DDEEC8F007A19D5 /* RoposoTest.xcdatamodel */,
+			);
+			currentVersion = A08316E91DDEEC8F007A19D5 /* RoposoTest.xcdatamodel */;
+			path = RoposoTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A08316D61DDEEC8F007A19D5 /* Project object */;
+}
